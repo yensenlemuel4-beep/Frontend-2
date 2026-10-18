@@ -62,7 +62,7 @@ export default function Home() {
       <header className="site-header">
         <nav className="nav-container" aria-label="Navigasi utama">
           <a className="brand" href="#beranda">
-            Kopi Nusantara
+            535250062 | Kornelius Yensen Lemuel
           </a>
           <div className="nav-links">
             <a href="#beranda">Beranda</a>
