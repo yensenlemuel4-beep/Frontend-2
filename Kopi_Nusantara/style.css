@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.text-brown { color: #4A3525; }
+.site-header { background-color: #4A3525 !important; }
+
+.nav-link:hover { text-decoration: underline; }
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('image/Banner_Kopi.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 400px;
+}
+.text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+
+.btn-primary-custom {
+    background-color: #D2B48C;
+    color: #222;
+    font-weight: bold;
+    border: none;
+    transition: background 0.3s;
+}
+.btn-primary-custom:hover { background-color: #c29f70; color: #222; }
+
+.section-title { color: #4A3525; }
+.price { color: #B8860B; }
+
+.btn-like {
+    background-color: #fff0f0;
+    border: 1px solid #ffcccc;
+    color: #d9534f;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.btn-like:hover { background-color: #ffe6e6; }
+
+.calc-result { background-color: #f4ecd8; }
+
+.accordion-button:not(.collapsed) {
+    background-color: #f1ebd9;
+    color: #4A3525;
+    box-shadow: none;
+}
+.accordion-button:focus { box-shadow: none; border-color: #D2B48C; }
